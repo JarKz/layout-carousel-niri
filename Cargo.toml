@@ -1,6 +1,13 @@
 [package]
-name = "layout-carousel-niri"
+name = "lc-niri"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+clap = { version = "4.5.38", features = ["derive"] }
+clap_complete = "4.5.50"
+derive_more = { version = "2.0.1", features = ["display"] }
+directories = "6.0.0"
+niri-ipc = "25.5.0"
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
